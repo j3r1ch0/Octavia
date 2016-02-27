@@ -10,4 +10,6 @@ Octavia is a Python alternative to Dirbuster. With Octavia you can find, in a si
 -Implementing threads<br>
 -Implementing testing trought the tor network<br>
 
+Works well with linux, not tested on Windows. Please let me know. <br>
+
 For more info please visit:<br>
