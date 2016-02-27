@@ -1,2 +1,2 @@
 # Octavia
-# A Python alternative to Dirbuster
+<i>A Python alternative to Dirbuster</i>
