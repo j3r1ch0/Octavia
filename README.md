@@ -12,4 +12,3 @@ Octavia is a Python alternative to Dirbuster. With Octavia you can find, in a si
 
 Works well with linux, not tested on Windows. Please let me know. <br>
 
-For more info please visit:<br>
