@@ -17,8 +17,8 @@ ENDC = '\033[0m'
 BOLD = '\033[1m'
 UNDERLINE = '\033[4m'
 
-ext = [".bak", ".txt", ".zip", ".tar", ".7z", ".log", ".csv", ".dat", ".xml",
-".db", ".sql", ".cfg", ".rar", ".tmp", ".old", ".copy"]
+ext = [".bak", ".txt", ".zip", ".log", ".csv", ".dat", ".xml",
+".db", ".sql", ".cfg", ".tmp", ".old", ".copy"]
 
 s = requests.Session()
 
@@ -27,7 +27,7 @@ s = requests.Session()
 def http_response(url):
 	try:
 		print("DEBUG: " + url)
-		r = s.get(url)
+		r = s.get(url, timeout=5)
 		# connection = urlopen(url)
 		return r.status_code
 	except requests.HTTPError:
